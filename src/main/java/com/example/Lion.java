@@ -8,7 +8,7 @@ public class Lion {
     private final Feline feline; // изменения Feline feline
 
     public Lion(String sex, Feline feline) throws Exception { //изменения Feline feline
-        this.feline = feline; // изменения
+        this.feline = feline; // изменения инъекция.
         if ("Самец".equals(sex)) {
             hasMane = true;
         } else if ("Самка".equals(sex)) {
